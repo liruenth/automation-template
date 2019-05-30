@@ -1,0 +1,15 @@
+{
+  "name": "testcafe-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "testcafe firefox index.js -s screenshots --color --debug-on-fail --skip-js-errors --sf"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.1.0",
+    "testcafe-react-selectors": "^3.1.0"
+  }
+}
